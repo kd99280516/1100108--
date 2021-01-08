@@ -27,7 +27,7 @@
 #content {
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-    color: gold;
+    color: rgb(250, 23, 231);
     padding: 30px 20px;
 }
 
@@ -59,7 +59,7 @@ footer {
     /* mt */
     margin-top: 20px;
     /* c */
-    color: gold;
+    color: rgb(250, 23, 231);
 }
 
 body {
