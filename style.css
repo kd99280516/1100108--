@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+}
+
+#card {
+    background-image: url(https://scontent.ftpe2-1.fna.fbcdn.net/v/t1.0-1/p320x320/11225215_1007084229311575_1330382704748873027_n.jpg?_nc_cat=100&ccb=2&_nc_sid=7206a8&_nc_ohc=xTBCqr3zdOAAX_4ox9w&_nc_ht=scontent.ftpe2-1.fna&tp=6&oh=50a50c61b17541f303694696ccd93506&oe=601C938E);
+    /* bgs */
+    /* cover 滿版 */
+    background-size: cover;
+    width: 650px;
+    /* 上 左右 下 */
+    margin: 150px auto 0;
+    padding: 250px 70px 50px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    /* 轉場：轉場時間 */
+    transition: 0.8s;
+}
+
+/* 選取器:hover - 滑入元素後的樣式 */
+#card:hover {
+    /* 變形：尺寸(倍數) */
+    transform: scale(1.1);
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    color: gold;
+    padding: 30px 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+footer {
+    /* fz */
+    font-size: 100px;
+    /* tac */
+    text-align: center;
+    /* ls */
+    letter-spacing: 150px;
+    /* pl */
+    padding-left: 150px;
+    /* mt */
+    margin-top: 20px;
+    /* c */
+    color: gold;
+}
+
+body {
+    background: #252525;
+}
